@@ -28,8 +28,10 @@ h1{
     font-weight: 800;
 }
 .sec01{
-        background-image: url(img/top-banner.png);
+    background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 20px;
+    background-color: ivory;
 }
 .sec02{
     background: rgb(127, 223, 215);
@@ -37,6 +39,7 @@ h1{
     display: flex;
     background-repeat:no-repeat ;
 background-position: right;
+margin-bottom: 10px;
 }
 
 .link_bt02{
@@ -46,4 +49,25 @@ background-position: right;
     text-decoration: none;
     color: rgb(225, 245, 225);
     font-weight: 800;
+}
+
+.dib{
+   width: 100%;
+    display: flex;
+  justify-content: ;
+  margin-bottom: 20px;  
+}
+.exp{
+   width: 40%;
+    border-radius: 3%;
+   
+    padding: 30px;
+    padding-left:15px;
+    box-shadow: 10px  10px 1px rgb(239, 248, 239);
+    margin-right: 20px;
+    border-left: 11px solid rgb(116, 227, 241);
+    background-color: rgb(247, 196, 196);
+}
+.hthree{
+    color: rgb(84, 133, 11);
 }
