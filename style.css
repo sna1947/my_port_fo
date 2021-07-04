@@ -9,7 +9,7 @@ h1{
 .color_orng{
     color: orange;
 }
-section{
+.sec01{
     display:flex;
 }
 .contnr_01{
@@ -19,7 +19,7 @@ section{
 .contnr_01 img{
     width: 80%;
 }
-.link_bt{
+.link_bt01{
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
@@ -28,6 +28,22 @@ section{
     font-weight: 800;
 }
 .sec01{
-    background-image: url(img/top-banner.png);
+        background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+.sec02{
+    background: rgb(127, 223, 215);
+    background-image: url(img/dream-bg.png);
+    display: flex;
+    background-repeat:no-repeat ;
+background-position: right;
+}
+
+.link_bt02{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(225, 245, 225);
+    font-weight: 800;
 }
